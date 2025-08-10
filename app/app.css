@@ -51,3 +51,12 @@ body {
 .card {
   @apply rounded-xl shadow-sm border border-black/10 p-6;
 }
+
+/* Smooth anchor scrolling and offset for sticky header */
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-section {
+  scroll-margin-top: 5rem; /* header height offset */
+}
