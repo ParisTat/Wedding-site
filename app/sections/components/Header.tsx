@@ -21,13 +21,17 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition backdrop-blur supports-[backdrop-filter]:bg-white/70 ${
+      className={`fixed top-0 inset-x-0 z-50 transition bg-white/85 ${
         scrolled ? "shadow-sm border-b border-black/10" : ""
       }`}
+      style={{
+        backdropFilter: "saturate(180%) blur(10px)",
+        WebkitBackdropFilter: "saturate(180%) blur(10px)",
+      }}
     >
       <nav className="container-padded flex items-center justify-between h-16">
         <a href="#hero" className="font-script text-2xl text-gray-800">
-          A & G
+          K & E
         </a>
         <ul className="hidden md:flex items-center gap-6 text-sm">
           {LINKS.map((l) => (

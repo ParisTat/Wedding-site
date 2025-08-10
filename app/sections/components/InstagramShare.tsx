@@ -32,10 +32,7 @@ export function InstagramShare({
               rows={5}
               placeholder="Message (optional)"
             />
-            <button
-              type="button"
-              className="px-5 py-2 rounded bg-gray-800 text-white"
-            >
+            <button type="button" className="btn btn-lg">
               Submit
             </button>
           </form>

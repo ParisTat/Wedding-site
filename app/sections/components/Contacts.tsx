@@ -21,26 +21,26 @@ export function Contacts() {
 
 function ContactCard({ name, phone }: { name: string; phone: string }) {
   return (
-    <div className="sage-bg card">
+    <div className="card bg-white">
       <div className="text-2xl text-center mb-3">{name}</div>
       <div className="text-center text-lg mb-4">{phone}</div>
       <div className="flex justify-center gap-3">
         <a
-          className="size-11 rounded-lg bg-[#4267B2] text-white grid place-items-center"
+          className="size-11 rounded-lg bg-[#4267B2] text-white grid place-items-center shadow"
           href="#"
           aria-label="Facebook"
         >
           <FaFacebook />
         </a>
         <a
-          className="size-11 rounded-lg bg-[#7360F2] text-white grid place-items-center"
+          className="size-11 rounded-lg bg-[#7360F2] text-white grid place-items-center shadow"
           href="#"
           aria-label="Viber"
         >
           <FaViber />
         </a>
         <a
-          className="size-11 rounded-lg bg-[#25D366] text-white grid place-items-center"
+          className="size-11 rounded-lg bg-[#25D366] text-white grid place-items-center shadow"
           href="#"
           aria-label="WhatsApp"
         >
