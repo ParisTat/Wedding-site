@@ -5,7 +5,7 @@ import { Ceremony } from "./components/Ceremony";
 import { Reception } from "./components/Reception";
 import { RSVP } from "./components/RSVP";
 import { Wishes } from "./components/Wishes";
-import { InstagramShare } from "./components/InstagramShare";
+import { InstagramShare } from "./components/InstagramShare"; 
 import { WeddingList } from "./components/WeddingList";
 import { Contacts } from "./components/Contacts";
 import { BackToTop } from "./components/BackToTop";
@@ -73,6 +73,7 @@ export function HomePage() {
       <Reception location="Oinoforos Estate, Industrial Zone" time="21:00" />
       <RSVP lead={t.rsvpLead} yes={t.yes} no={t.no} />
       <Wishes title={t.wishes} />
+      {/* Original InstagramShare component */}
       <InstagramShare
         instagramTitle={t.instagramFeed}
         shareTitle={t.shareExperience}

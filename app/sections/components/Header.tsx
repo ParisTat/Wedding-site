@@ -6,7 +6,7 @@ const LINKS = [
   { href: "#reception", label: "Reception" },
   { href: "#rsvp", label: "RSVP" },
   { href: "#wishes", label: "Wishes" },
-  { href: "#instagram", label: "Instagram" },
+  { href: "#instagram-share", label: "Instagram" },
   { href: "#contacts", label: "Get in touch" },
 ];
 

@@ -1,6 +1,6 @@
 export function Ceremony({ location, time }: { location: string; time: string }) {
   return (
-    <section id="ceremony" className="section-wrapper scroll-section">
+    <section id="ceremony" className="section-wrapper scroll-section bg-white">
       <div className="container-padded grid lg:grid-cols-2 gap-8 items-start">
         <div>
           <h2 className="font-script text-4xl text-gray-800 mb-4">our appointment</h2>
@@ -16,7 +16,7 @@ export function Ceremony({ location, time }: { location: string; time: string })
         </div>
         <img
           className="rounded-xl shadow"
-          src="https://images.unsplash.com/photo-1565106430482-8f6e74349f4f?q=80&w=1600&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1616086745168-f9b8f2c3b8f1?q=80&w=1600&auto=format&fit=crop"
           alt="Ceremony"
         />
       </div>

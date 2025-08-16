@@ -5,7 +5,7 @@ export function RSVP({ lead, yes, no }: { lead: string; yes: string; no: string 
   const [reason, setReason] = useState("");
 
   return (
-    <section id="rsvp" className="section-wrapper scroll-section">
+    <section id="rsvp" className="section-wrapper scroll-section bg-white">
       <div className="container-padded">
         <h3 className="font-script text-4xl text-gray-800 mb-2">rsvp</h3>
         <p className="max-w-3xl text-lg text-gray-700 mb-6">{lead}</p>

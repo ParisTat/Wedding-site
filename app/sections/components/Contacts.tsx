@@ -3,7 +3,7 @@ import { FaViber } from "react-icons/fa6";
 
 export function Contacts() {
   return (
-    <section id="contacts" className="section-wrapper scroll-section">
+    <section id="contacts" className="section-wrapper scroll-section bg-white">
       <div className="container-padded grid lg:grid-cols-2 gap-8 items-start">
         <img
           className="rounded-xl shadow"

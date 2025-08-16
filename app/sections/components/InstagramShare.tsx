@@ -1,47 +1,24 @@
-export function InstagramShare({
-  instagramTitle,
-  shareTitle,
-  soonText,
-}: {
+import React from 'react';
+
+interface InstagramShareProps {
   instagramTitle: string;
   shareTitle: string;
   soonText: string;
-}) {
+}
+
+export function InstagramShare({ instagramTitle, shareTitle, soonText }: InstagramShareProps) {
   return (
-    <section id="instagram" className="section-wrapper scroll-section">
-      <div className="container-padded grid lg:grid-cols-2 gap-8 items-start">
-        <div>
-          <h3 className="font-script text-4xl text-gray-800 mb-2">
-            {instagramTitle}
-          </h3>
-          <p className="text-gray-700 mb-6">
-            Use our hashtag on Instagram and see your photos here.
-          </p>
-          <div className="aspect-video bg-gray-100 border rounded-xl" />
-        </div>
-        <div>
-          <h3 className="font-script text-4xl text-gray-800 mb-2">
-            {shareTitle}
-          </h3>
-          <p className="mb-4 text-gray-700">{soonText}</p>
-          <form className="space-y-3 max-w-xl">
-            <input className="w-full border p-3 rounded" placeholder="Name" />
-            <input className="w-full border p-3 rounded" placeholder="Email" />
-            <textarea
-              className="w-full border p-3 rounded"
-              rows={5}
-              placeholder="Message (optional)"
-            />
-            <button type="button" className="btn btn-lg">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
+    <section id="instagram-share" className="section-wrapper scroll-section text-center bg-white">
+      <h2 className="font-script text-4xl text-gray-800 mb-4">{instagramTitle}</h2>
+      <p className="text-gray-600 mb-8">{soonText}</p>
+      {/* You can add Instagram sharing functionality here later if needed */}
+      <h3 className="font-script text-3xl text-gray-800 mb-4">{shareTitle}</h3>
+      {/* This button can be replaced with actual sharing functionality or a link to Instagram */}
+      <button className="btn btn-lg">
+        Share on Instagram
+      </button>
     </section>
   );
 }
 
 export default InstagramShare;
-
-

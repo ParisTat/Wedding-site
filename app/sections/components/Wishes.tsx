@@ -1,6 +1,6 @@
 export function Wishes({ title }: { title: string }) {
   return (
-    <section id="wishes" className="section-wrapper scroll-section">
+    <section id="wishes" className="section-wrapper scroll-section bg-white">
       <div className="container-padded">
         <h3 className="font-script text-4xl text-gray-800 mb-10">{title}</h3>
         <div className="grid md:grid-cols-3 gap-6">
